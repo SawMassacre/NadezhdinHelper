@@ -5,7 +5,7 @@
     <p class="header__subtitle">2024</p>
   </div>
   <div class="page-container">
-    <h1 style="width: 40vw; text-align: center">
+    <h1 style="width: 55vw; text-align: center">
       Это приложение поможет тебе заполнять бланки правильно
     </h1>
     <h2 style="width: 45vw; text-align: center">
