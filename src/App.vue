@@ -48,4 +48,30 @@ strong {
   padding: 0;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1366px) {
+  body {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  body {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 960px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 410px) {
+  body {
+    font-size: 12px;
+  }
+}
 </style>
