@@ -1,6 +1,7 @@
 <template>
   <div class="main__logo semi-bold" style="margin: 0.5em">
     <p class="header__title">Надеждин</p>
+    <p class="header__subtitle">Helper</p>
     <p class="header__subtitle">2024</p>
   </div>
   <div class="page-container">
