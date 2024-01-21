@@ -52,7 +52,7 @@ const dictionary = {
   переулок: "пер.",
   площадь: "пл.",
   проезд: "пр-д",
-  проспект: "просп.",
+  проспект: "пр-кт.",
   улица: "ул.",
   шоссе: "ш.",
   дом: "д.",
@@ -161,7 +161,7 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 70vh;
+  height: fit-content;
   font-family: "NEXT ART", sans-serif;
 }
 </style>

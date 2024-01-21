@@ -33,6 +33,11 @@ export default {
 
 body {
   font-family: "NEXT ART", sans-serif;
+  background-color: #fff;
+  background-image: radial-gradient(#0165ff 3px, transparent 2px),
+    radial-gradient(#0165ff 3px, #fff 2px);
+  background-size: 80px 80px;
+  background-position: 0 0, 40px 40px;
 }
 
 strong {
@@ -133,5 +138,11 @@ strong {
   h3 {
     font-size: 1.1em;
   }
+}
+
+h1,
+h2,
+h3 {
+  background-color: #fff;
 }
 </style>
