@@ -33,6 +33,8 @@
 </template>
 
 <script>
+import Fuse from "fuse.js";
+
 const dictionary = {
   город: "г.",
   "городской округ": "г.о.",
@@ -62,8 +64,22 @@ const dictionary = {
   комната: "ком.",
 };
 
+const options = {
+  includeScore: true,
+  threshold: 0.3,
+};
+
+const fuse = new Fuse(Object.keys(dictionary), options);
+
 function getAbbreviation(word) {
-  return dictionary[word];
+  let cleanWord = word.toLowerCase().replace(/[^a-zа-яё]/gi, "");
+  const result = fuse.search(cleanWord);
+
+  if (result.length > 0) {
+    return dictionary[result[0].item];
+  } else {
+    return null;
+  }
 }
 
 export default {
