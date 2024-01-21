@@ -35,8 +35,8 @@ body {
   font-family: "NEXT ART", sans-serif;
   background-color: #fff;
   opacity: 1;
-  background-image: linear-gradient(#b4d2ff 2.6px, transparent 2.6px),
-    linear-gradient(to right, #b4d2ff 2.6px, #fff 2.6px);
+  background-image: linear-gradient(#d4e5f0 2.6px, transparent 2.6px),
+    linear-gradient(to right, #d4e5f0 2.6px, #fff 2.6px);
   background-size: 52px 52px;
 }
 
@@ -143,6 +143,8 @@ strong {
 h1,
 h2,
 h3 {
-  background-color: #fff;
+  background-color: #d4e5f0;
+  border-radius: 0.5em;
+  padding: 0.1em;
 }
 </style>
