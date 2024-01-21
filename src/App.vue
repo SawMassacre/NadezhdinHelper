@@ -34,10 +34,10 @@ export default {
 body {
   font-family: "NEXT ART", sans-serif;
   background-color: #fff;
-  background-image: radial-gradient(#0165ff 3px, transparent 2px),
-    radial-gradient(#0165ff 3px, #fff 2px);
-  background-size: 80px 80px;
-  background-position: 0 0, 40px 40px;
+  opacity: 1;
+  background-image: linear-gradient(#b4d2ff 2.6px, transparent 2.6px),
+    linear-gradient(to right, #b4d2ff 2.6px, #fff 2.6px);
+  background-size: 52px 52px;
 }
 
 strong {
