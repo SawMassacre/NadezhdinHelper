@@ -145,6 +145,6 @@ h2,
 h3 {
   background-color: #d4e5f0;
   border-radius: 0.5em;
-  padding: 0.1em;
+  padding: 0.4em;
 }
 </style>
